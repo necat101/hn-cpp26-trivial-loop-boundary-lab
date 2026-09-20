@@ -131,7 +131,7 @@ def main():
             f"environment={r['environment']}, yield={r['yield_replacement_status']}, compiler_claim={r['compiler_support_claim']['claim']}"
         )
     lines.append("")
-    RESULTS_MD.write_text("\n".join(lines) + "\n")
+    RESULTS_MD.write_text("\n".join(lines))
     print(f"Wrote {RESULTS_JSON} and {RESULTS_MD} ({len(results)} cases)")
 
 
