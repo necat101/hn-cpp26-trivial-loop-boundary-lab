@@ -7,7 +7,7 @@ python3 -m py_compile "$ROOT/tests/test_cpp26_trivial_loop.py" && echo "py_compi
 echo "Running evaluator..."
 python3 "$ROOT/evaluator.py"
 echo "Running tests..."
-python3 -m unittest tests.test_cpp26_trivial_loop -v
+python3 -m unittest discover -s "$ROOT/tests" -v
 echo "Deterministic re-run check..."
 python3 "$ROOT/evaluator.py"
 echo "Diff generated outputs vs tracked..."
