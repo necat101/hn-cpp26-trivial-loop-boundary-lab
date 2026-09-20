@@ -1,0 +1,170 @@
+[
+  {
+    "id": "while_true_semicolon_hosted",
+    "trivially_empty": true,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": true,
+    "environment": "hosted",
+    "yield_replacement_status": "replaced_with_yield",
+    "compiler_support_claim": {
+      "claim": "gcc14_implements_p2809",
+      "is_normative": false,
+      "note": "Compiler-vendor claim is implementation-support evidence only; does not prove standard requires identical behavior on every compiler/version/mode."
+    }
+  },
+  {
+    "id": "while_true_empty_braces_hosted",
+    "trivially_empty": true,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": true,
+    "environment": "hosted",
+    "yield_replacement_status": "replaced_with_yield",
+    "compiler_support_claim": {
+      "claim": null,
+      "is_normative": false,
+      "note": "No compiler support claim asserted for this case."
+    }
+  },
+  {
+    "id": "for_empty_implicit_true_hosted",
+    "trivially_empty": true,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": true,
+    "environment": "hosted",
+    "yield_replacement_status": "replaced_with_yield",
+    "compiler_support_claim": {
+      "claim": null,
+      "is_normative": false,
+      "note": "No compiler support claim asserted for this case."
+    }
+  },
+  {
+    "id": "do_while_true_empty_braces_hosted",
+    "trivially_empty": true,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": true,
+    "environment": "hosted",
+    "yield_replacement_status": "replaced_with_yield",
+    "compiler_support_claim": {
+      "claim": null,
+      "is_normative": false,
+      "note": "No compiler support claim asserted for this case."
+    }
+  },
+  {
+    "id": "constexpr_true_hosted",
+    "trivially_empty": true,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": true,
+    "environment": "hosted",
+    "yield_replacement_status": "replaced_with_yield",
+    "compiler_support_claim": {
+      "claim": "clang18_claims_p2809",
+      "is_normative": false,
+      "note": "Compiler-vendor claim is implementation-support evidence only; does not prove standard requires identical behavior on every compiler/version/mode."
+    }
+  },
+  {
+    "id": "while_true_string_literal_body",
+    "trivially_empty": false,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": false,
+    "environment": "hosted",
+    "yield_replacement_status": "not_applicable",
+    "compiler_support_claim": {
+      "claim": null,
+      "is_normative": false,
+      "note": "No compiler support claim asserted for this case."
+    }
+  },
+  {
+    "id": "while_non_const_condition_empty",
+    "trivially_empty": true,
+    "condition_is_constant_expression": false,
+    "condition_constant_value": null,
+    "trivial_infinite_loop": false,
+    "environment": "hosted",
+    "yield_replacement_status": "not_applicable",
+    "compiler_support_claim": {
+      "claim": null,
+      "is_normative": false,
+      "note": "No compiler support claim asserted for this case."
+    }
+  },
+  {
+    "id": "runtime_infinite_not_trivial",
+    "trivially_empty": false,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": false,
+    "environment": "hosted",
+    "yield_replacement_status": "not_applicable",
+    "compiler_support_claim": {
+      "claim": null,
+      "is_normative": false,
+      "note": "No compiler support claim asserted for this case."
+    }
+  },
+  {
+    "id": "qualifying_hosted_yield",
+    "trivially_empty": true,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": true,
+    "environment": "hosted",
+    "yield_replacement_status": "replaced_with_yield",
+    "compiler_support_claim": {
+      "claim": "claimed_hosted_yield",
+      "is_normative": false,
+      "note": "Compiler-vendor claim is implementation-support evidence only; does not prove standard requires identical behavior on every compiler/version/mode."
+    }
+  },
+  {
+    "id": "qualifying_freestanding_impl_defined",
+    "trivially_empty": true,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": true,
+    "environment": "freestanding",
+    "yield_replacement_status": "implementation_defined",
+    "compiler_support_claim": {
+      "claim": "gcc_freestanding_claim",
+      "is_normative": false,
+      "note": "Compiler-vendor claim is implementation-support evidence only; does not prove standard requires identical behavior on every compiler/version/mode."
+    }
+  },
+  {
+    "id": "while_constexpr_false_empty",
+    "trivially_empty": true,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": false,
+    "trivial_infinite_loop": false,
+    "environment": "hosted",
+    "yield_replacement_status": "not_applicable",
+    "compiler_support_claim": {
+      "claim": null,
+      "is_normative": false,
+      "note": "No compiler support claim asserted for this case."
+    }
+  },
+  {
+    "id": "while_true_continue_body",
+    "trivially_empty": false,
+    "condition_is_constant_expression": true,
+    "condition_constant_value": true,
+    "trivial_infinite_loop": false,
+    "environment": "hosted",
+    "yield_replacement_status": "not_applicable",
+    "compiler_support_claim": {
+      "claim": null,
+      "is_normative": false,
+      "note": "No compiler support claim asserted for this case."
+    }
+  }
+]
